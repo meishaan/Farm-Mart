@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farm.Mart</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+
+</head>
+
+<body>
+    
+    <div id="main">
+
+        <!-- <div class="page-loader">
+            <div class="spinner"></div>
+            	<div class="txt">Farm.Mart</div>
+
+        </div>  -->
+
+        <div id="first">    
+            <div id="nav">
+                <div id="navstart">
+                    <div id="image">
+                        <img src="FARMMART.png"
+                            alt="">
+                    </div>
+                </div>
+                <div id="navmid">
+
+                    <div id="search">
+                        <i class="ri-search-2-line"></i>
+                        <input type="text">
+                        <button>search</button>
+                        <i class="ri-camera-line"></i>
+                    </div>
+
+                </div>
+
+                <div id="navend">
+                    <a href="#">Home</a>
+                    <a  href="#buy">Marketplace</a>
+                    <a href="#fourth">ContactUs</a>
+
+                    <!-- <div class="menu-icon">
+
+                        <div class="menu-list">
+                            <nav id="menu-nav">
+                                <a href="#for rent">Rent</a>
+                                <a href="#buy">Buy</a>
+                                <a href="#sell">Sell</a>
+                                <a href="#contact">Contact</a>
+                            </nav>
+                        </div>
+                    </div> -->
+
+                    <div id="login">
+                        <i class="ri-user-line"></i>
+                        <button href="" class="btnLogin-popup">Login</button>
+                        <!-- <button>LOgin</button> -->
+                    </div>
+
+                    <div id="lang">
+                        <i class="ri-global-line"></i>
+                        <a href="#">Language</a>
+                    </div>
+                    
+                </div>
+
+
+            </div>
+
+            <div id="firstI">
+
+                <!-- <div id="bg">
+                <img src="./images/leaves bg removedMy projectleac.png" alt="">
+            </div> -->
+
+                <div id="centerdiv">
+                    <div id="centerimgdiv">
+                        <img src="./images/logo tractor .png" alt="">
+                    </div>
+                    <h1 class="hanim">for the profession of hope</h1>
+                    <p class="hanim  ">Farm.Mart tends to make your life easier!</p>
+                    <button onclick="window.location.href='#buy';"
+                     class="hanim">Marketplace</button>
+                </div>
+
+                <div id="centerimage">
+                    <!-- <h1>hope is dope</h1> -->
+
+                    <img id="one"
+                        src="https://as1.ftcdn.net/v2/jpg/03/06/14/94/1000_F_306149443_TgL0inulRuWdrT6e6cmfb5leHuSSp4j8.jpg"
+                        alt="">
+                    <img id="two"
+
+                         src="https://images.pexels.com/photos/5459139/pexels-photo-5459139.jpeg"
+                            alt="">
+
+                    <img id="three"
+                         src="https://images.unsplash.com/photo-1545830790-68595959c491?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGZhcm1lcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+                          alt="">
+                       
+                </div>
+
+
+
+
+            </div>
+
+
+<!-- ############## marketplace $############ -->
+            
+<!-- <div id="marketloader">
+      <div class="page-loader">
+            <div class="spinner"></div>
+            	<div class="txt">Farm.Rent</div>
+        </div> 
+</div>
+<div id="marketpage">
+
+    <div id="mleft">
+        <div id="mlefticon">
+            <i class="ri-close-circle-line"></i>
+        </div>
+        <h1 class="one">BUY</h1>
+        <h1 class="two">RENT</h1>
+        <h1 class="three">SELL</h1>
+    </div>
+    <div id="mright">
+
+       
+
+
+    </div>
+
+
+</div> -->
+
+            <!-- ####### login #######33 -->
+
+            <div class="wrapper">
+
+                <span class="icon-close">
+                    <i class="ri-close-fill"></i>
+                </span>
+
+                <div class="form-box login">
+                    <h2>Login</h2>
+                    <form action="#">
+                        <div class="input-box">
+                            <span class="icon">
+                                <i class="ri-mail-fill"></i>
+                            </span>
+                            <input type="email" required>
+                            <label for="">Email</label>
+                        </div>
+                        <div class="input-box">
+                            <span class="icon">
+                                <i class="ri-lock-fill"></i>
+                            </span>
+                            <input type="password" required>
+                            <label>Password</label>
+                        </div>
+                        <div class="remember-forgot">
+                            <label><input type="checkbox">Remember me</label>
+                            <a href="#">Forgot Password?</a>
+                        </div>
+                        <button type="submit" class="btn">Login</button>
+                        <div class="login-register">
+                            <p>Don't have an account?
+                                <a href="#" class="register-link">Register</a>
+                            </p>
+                        </div>
+                    </form>
+                </div>
+
+
+                <!-- ###################3 registration ###############3 -->
+
+
+                <div class="form-box register">
+                    <h2>Registration</h2>
+                    <form action="#">
+                        <div class="input-box">
+                            <span class="icon">
+                                <i class="ri-user-fill"></i>
+                            </span>
+                            <input type="text" required>
+                            <label for="">Username</label>
+                        </div>
+                        <div class="input-box">
+                            <span class="icon">
+                                <i class="ri-mail-fill"></i>
+                            </span>
+                            <input type="email" required>
+                            <label for="">Email</label>
+                        </div>
+                        <div class="input-box">
+                            <span class="icon">
+                                <i class="ri-lock-fill"></i>
+                            </span>
+                            <input type="password" required>
+                            <label for="">Password</label>
+                        </div>
+                        <div class="remember-forgot">
+                            <label><input type="checkbox">I agree to the terms & conditions</label>
+                        </div>
+                        <button type="submit" class="btn">Register</button>
+                        <div class="login-register">
+                            <p>Already have an account?
+                                <a href="#" class="login-link">Login</a>
+                            </p>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- ################ buy ###################
+        -->
+        <div id="buy">
+            <h2>Buy Farm products</h2>
+            
+          <div id="buytop">
+            <div class="buybox">
+                <div id="imagebox">
+                   <img src=https://cdn.shopify.com/s/files/1/0722/2059/products/NPK-30_280x.jpg?v=1607176728 alt="">
+                </div>
+               <div id="textbox">
+                   <h5>Neptune Water Pump</h5>
+                   <p>NPK 30</p>
+                   <h6>Rs.1400</h6>
+                   <button> <i class="ri-shopping-bag-fill"></i> Buy now</button>
+                   <button> <i class="ri-shopping-cart-fill"></i> Add to cart </button>
+               </div>
+            </div> 
+            <div class="buybox">
+                <div id="imagebox">
+                    <img src="https://www.agrowala.com/theme/images/product/img_1987554854_1495018716.jpg" alt="">
+                </div>
+                <div id="textbox">
+                    <h5>Roound Tomatoes</h5>
+                    <p>3000 seeds</p>
+                    <h6>Rs.300</h6>
+                    <button> <i class="ri-shopping-bag-fill"></i> Buy now</button>
+                    <button> <i class="ri-shopping-cart-fill"></i> Add to cart </button>
+                </div>
+
+            </div>
+            
+            <div class="buybox">
+                 <div id="imagebox">
+                    <img src="https://www.agrowala.com/theme/images/product/img_16351370641403141156.webp" alt="">
+                 </div>
+                <div id="textbox">
+                    <h5>Organic Fertilizer</h5>
+                    <p>25 ML</p>
+                    <h6>Rs.165</h6>
+                    <button> <i class="ri-shopping-bag-fill"></i> Buy now</button>
+                    <button> <i class="ri-shopping-cart-fill"></i> Add to cart </button>
+                </div>
+            </div>
+            <div class="buybox">
+                 <div id="imagebox">
+                    <img src="https://cdn.shopify.com/s/files/1/0722/2059/products/p3_540x.png?v=1620751253" alt="">
+                 </div>
+                <div id="textbox">
+                    <h5>Pioneer agro</h5>
+                    <p>Bio fungicide</p>
+                    <h6>Rs.535</h6>
+                    <button> <i class="ri-shopping-bag-fill"></i> Buy now</button>
+                    <button> <i class="ri-shopping-cart-fill"></i> Add to cart </button>
+                </div>
+            </div>
+            
+          </div>
+          <div id="buybot">
+            <div class="buybox">
+                <div id="imagebox">
+                   <img src="https://cdn.shopify.com/s/files/1/0920/8638/products/coragen-removebg-preview_233x342.png?v=1627557442" alt="">
+                </div>
+               <div id="textbox">
+                   <h5>Coragen</h5>
+                   <p>300 ML</p>
+                   <h6>Rs.1900</h6>
+                   <button> <i class="ri-shopping-bag-fill"></i> Buy now</button>
+                   <button> <i class="ri-shopping-cart-fill"></i> Add to cart </button>
+               </div>
+           </div>
+            <div class="buybox">
+                 <div id="imagebox">
+                    <img src="https://cdn.shopify.com/s/files/1/0722/2059/products/PP43i_9d4a8b58-36ec-427f-841c-6af64d2938fb_540x.png?v=1637148676" alt="">
+                 </div>
+                <div id="textbox">
+                    <h5>PT-439 plus tractor</h5>
+                    <p>Escorts</p>
+                    <h6>Rs.300</h6>
+                    <button> <i class="ri-shopping-bag-fill"></i> Buy now</button>
+                    <button> <i class="ri-shopping-cart-fill"></i> Add to cart </button>
+                </div>
+            </div>
+            <div class="buybox">
+                 <div id="imagebox">
+                    <img src="https://cdn.shopify.com/s/files/1/0722/2059/products/BS-25_360x.jpg?v=1607164057" alt="">
+                 </div>
+                <div id="textbox">
+                    <h5>Garden Sprayer</h5>
+                    <p>snap private limited</p>
+                    <h6>Rs.4800</h6>
+                    <button> <i class="ri-shopping-bag-fill"></i> Buy now</button>
+                    <button> <i class="ri-shopping-cart-fill"></i> Add to cart </button>
+                </div>
+            </div>
+            <div class="buybox">
+                 <div id="imagebox">
+                    <img src="https://cdn.shopify.com/s/files/1/0722/2059/products/v10-removebg-preview_540x.png?v=1642967119" alt="">
+                 </div>
+                <div id="textbox">
+                       <h5>Chaff cutter</h5> 
+                    <p>Vinspire agrotech</p>
+                    <h6>Rs.14000</h6>
+                    <button> <i class="ri-shopping-bag-fill"></i> Buy now</button>
+                    <button> <i class="ri-shopping-cart-fill"></i> Add to cart </button>
+                </div>
+            </div>
+            
+
+
+
+            
+          </div>
+        </div>
+<!-- ################# sell ################### -->
+<div class="sell">
+    <h2>SELL</h2>
+    <h2>Enter Your Product Details</h2>
+
+    <div id="sell1">
+
+
+<form action="">  
+
+<div class="sellparent">
+<div class="sellleft">
+<h4>upload and drap image</h4>
+</div>
+<div class="sellright">
+<label for="product">*Product Category</label>
+<select id="country" name="country">
+    <option value="france">Select 
+        An Option
+    </option>
+    <option value="germany">Cropes</option>
+    <option value="germany">Vegetables</option>
+    <option value="germany">Fruits</option>
+    <option value="germany">Flowers</option>
+  </select>
+  <br>
+
+<label for="product">*Product Name</label>
+<input type="text" placeholder="Enter Product Name ">
+
+<label for="product">*About Farm</label>
+<input type="text">
+
+</div>
+</div>
+
+<input type="submit" value="Submit">
+</form>
+</div>
+</div>
+
+<!-- ############ rent ############## -->
+<div class="rent">
+    <h2>Farm Equipment Rental</h2>
+    <div id="rent1">
+    <div id="rentsteps">
+    <h1>1</h1><p>select your requirement</p>
+    <h1>2</h1><p>connect with renter </p>
+    <h1>3</h1><p>get device at ypur door</p>
+</div>
+<form action="">
+
+
+<div class="rentparent">
+<div class="rentleft">
+<select id="country" name="country">
+    <option value="">Select Category*
+    </option>
+    <option value="germany">Tractor</option>
+    <option value="italy">Rotavator</option>
+    <option value="spain">Harvester</option>
+    <option value="uk">Balers</option>
+  </select>
+
+
+<select id="country" name="country">
+    <option value="france">State</option>
+    <option value="germany">Madhya Pradesh</option>
+  </select>
+
+<select id="country" name="country">
+  <option value="france">Block</option>
+  <option value="germany">Bhopal</option>
+  
+</select>
+</div>
+<div class="rentright">
+<select id="country" name="country">
+    <option value="france">District</option>
+    <option value="germany">Bhopal</option>
+  </select>
+
+<select id="country" name="country">
+    <option value="france">Village/Town</option>
+    <option value="germany">Mandideep</option>
+    <option value="germany">Misrood</option>
+    
+  </select>
+
+<select id="country" name="country">
+  <option value="france">Select Implement Specification</option>
+
+</select>
+</div>
+</div>
+
+<input type="submit" value="Submit">
+</form>
+</div>
+</div>
+
+
+
+
+        <div id="second">
+            
+            <div id="sectext">
+                <h1>Store and organise, easily....</h1>
+            <p>The  app gives you one, simple place to buy, sell and rent your equipments .</p>
+            </div>
+
+          <div id="secbg">
+              <img src="./images/redpupGradient-p-500.png" alt="">
+            <img src="./images/blue_Blue Gradient.png" alt="">
+          </div>
+          <div id="blur"></div>
+
+
+          <div id="slider_content">
+            <div id="slider_content1">
+                <div class="circal1"></div>
+                <div class="circal2"></div>
+                <div class="circal3"></div>
+                <div class="circal4"></div>
+                <div class="circal5"></div>
+                <div class="circal6"></div>
+                <div class="circal7"></div>
+                <div class="circal8"></div>
+                <div class="circal9"></div>
+                <!-- <div class="circal10"></div>
+                <div class="circal11"></div>
+                <div class="circal12"></div> -->
+            </div>
+            <div id="slider_content2">
+                <div class="circal1"></div>
+                <div class="circal2"></div>
+                <div class="circal3"></div>
+                <div class="circal4"></div>
+                <div class="circal5"></div>
+                <div class="circal6"></div>
+                <div class="circal7"></div>
+                <div class="circal8"></div>
+                <div class="circal9"></div>
+            </div>
+          </div>
+
+        </div>
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js" integrity="sha512-A64Nik4Ql7/W/PJk2RNOmVyC/Chobn5TY08CiKEX50Sdw+33WTOpPJ/63bfWPl0hxiRv1trPs5prKO8CpA7VNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+
+  
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
